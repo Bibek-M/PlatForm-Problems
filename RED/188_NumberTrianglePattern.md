@@ -1,0 +1,76 @@
+# 188. Number Triangle Pattern
+
+🟡 **Difficulty:** Easy
+
+---
+
+## 🧠 Problem Statement
+
+Given an integer n, your task is to print a triangle pattern of numbers. The triangle should consist of n rows, where each row i contains the number i, repeated i times.
+
+The sequence starts from the number 1 at the top, and each subsequent row increments the number value by one, building up the triangle until row n.
+
+#### Example
+For an input n = 5, the printed output should be:
+
+```
+1
+22
+333
+4444
+55555
+```
+The first row contains the number 1, repeated once.
+The second row contains the number 2, repeated twice, and so on, up to row n.
+
+---
+
+## 📌 Examples
+
+### 🔹 Example 1
+
+```
+Input:
+
+n=1
+
+Output:
+
+1
+Explanation:A single row with 1.
+```
+
+### 🔹 Example 2
+
+```
+Input:
+
+n=2
+
+Output:
+
+1
+22
+Explanation:A triangle with two rows.
+```
+
+### 🔹 Example 3
+
+```
+Input:
+
+n=3
+
+Output:
+
+1
+22
+333
+Explanation:A triangle with three rows.
+```
+
+---
+
+## ⚙️ Constraints
+
+- `1 <= n <= 10`
