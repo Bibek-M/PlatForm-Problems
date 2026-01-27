@@ -1,4 +1,4 @@
-# Rotate an Array. 440
+# 440. Rotate an Array
 
 🟡 **Difficulty:** Medium
 
